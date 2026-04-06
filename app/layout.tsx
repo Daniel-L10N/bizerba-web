@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     canonical: 'https://bizerba-refacciones.vercel.app/',
   },
   openGraph: {
-    type: 'product',
+    type: 'website',
     url: 'https://bizerba-refacciones.vercel.app/',
     title: 'Tarjeta de Control para Rebanadora Bizerba | Reemplazo 60385075102 y 60377330156',
     description: 'Tarjeta de control de reemplazo de alta calidad para rebanadoras Bizerba. Compatible con números de parte 60385075102 y 60377330156. Envío rápido, soporte técnico y fabricación garantizada.',
