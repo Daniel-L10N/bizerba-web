@@ -15,7 +15,7 @@ export default function WhatsAppButton() {
 
   return (
     <a
-      href="https://wa.me/525659341070?text=Hola,%20me%20interesa%20la%20tarjeta%20de%20control%20Bizerba%20(60385075102/60377330156)"
+      href="https://wa.me/525525686595?text=Hola,%20me%20interesa%20la%20tarjeta%20de%20control%20Bizerba%20(60385075102/60377330156)"
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-slate-900 p-4 rounded-full shadow-lg shadow-green-500/40 transition-all hover:scale-110 animate-pulse"

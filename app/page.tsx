@@ -35,7 +35,7 @@ export default function Home() {
               No detengas tu producción, tenemos la refacción que necesitas.
             </p>
             <a
-              href="https://wa.me/525659341070?text=Hola,%20me%20interesa%20la%20tarjeta%20de%20control%20Bizerba%20(60385075102/60377330156)"
+              href="https://wa.me/525525686595?text=Hola,%20me%20interesa%20la%20tarjeta%20de%20control%20Bizerba%20(60385075102/60377330156)"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-green-500 hover:bg-green-600 text-slate-900 font-bold text-lg px-8 py-4 rounded-lg transition-all hover:scale-105 shadow-lg shadow-green-500/25"
@@ -106,11 +106,11 @@ export default function Home() {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
               <article className="bg-slate-800 rounded-lg overflow-hidden border border-slate-700">
-                <div className="aspect-square bg-slate-700 flex items-center justify-center">
+                <div className="aspect-square bg-slate-700 flex items-center justify-center p-4">
                   <img 
                     src="/bizerba-60385.75102.jpg" 
                     alt="Tarjeta electrónica de repuesto para rebanadora Bizerba 60385075102"
-                    className="w-full h-full object-cover"
+                    className="max-w-full max-h-full object-contain rounded"
                     loading="lazy"
                   />
                 </div>
@@ -119,11 +119,11 @@ export default function Home() {
                 </div>
               </article>
               <article className="bg-slate-800 rounded-lg overflow-hidden border border-slate-700">
-                <div className="aspect-square bg-slate-700 flex items-center justify-center">
+                <div className="aspect-square bg-slate-700 flex items-center justify-center p-4">
                   <img 
                     src="/bizerba-60377330156.png" 
                     alt="Placa de control PCB 60377330156 para rebanadora industrial"
-                    className="w-full h-full object-cover"
+                    className="max-w-full max-h-full object-contain rounded"
                     loading="lazy"
                   />
                 </div>
@@ -177,7 +177,7 @@ export default function Home() {
               No dejes que una tarjeta dañada detenga tu producción. Contáctanos ahora y te ayudamos a encontrar la solución correcta.
             </p>
             <a
-              href="https://wa.me/525659341070?text=Hola,%20me%20interesa%20la%20tarjeta%20de%20control%20Bizerba%20(60385075102/60377330156)"
+              href="https://wa.me/525525686595?text=Hola,%20me%20interesa%20la%20tarjeta%20de%20control%20Bizerba%20(60385075102/60377330156)"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-green-500 hover:bg-green-600 text-slate-900 font-bold text-lg px-8 py-4 rounded-lg transition-all hover:scale-105 shadow-lg shadow-green-500/25"
@@ -285,7 +285,7 @@ export default function Home() {
             <a href="https://controlmodularmx.com" rel="dofollow" className="text-slate-400 hover:text-blue-400 text-sm transition-colors">
               Sitio principal
             </a>
-            <a href="https://wa.me/525659341070" className="text-slate-400 hover:text-green-400 text-sm transition-colors">
+            <a href="https://wa.me/525525686595" className="text-slate-400 hover:text-green-400 text-sm transition-colors">
               WhatsApp
             </a>
           </div>
