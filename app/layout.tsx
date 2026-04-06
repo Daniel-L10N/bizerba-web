@@ -57,9 +57,6 @@ export const metadata: Metadata = {
     description: 'Tarjeta de control de reemplazo OEM 60385075102 y 60377330156. Envío a todo México.',
     images: ['/og-image.jpg'],
   },
-  verification: {
-    google: 'google-site-verification-code',
-  },
 }
 
 // JSON-LD Schema - Product + FAQPage
@@ -146,6 +143,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.ico" />
         <link rel="robots" href="/robots.txt" />
+        <meta name="google-site-verification" content="TU_CÓDIGO_DE_VERIFICACIÓN" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
