@@ -111,6 +111,7 @@ export default function Home() {
                     src="/bizerba-60385.75102.jpg" 
                     alt="Tarjeta electrónica de repuesto para rebanadora Bizerba 60385075102"
                     className="w-full h-full object-cover"
+                    loading="lazy"
                   />
                 </div>
                 <div className="p-4">
@@ -123,20 +124,11 @@ export default function Home() {
                     src="/bizerba-60377330156.png" 
                     alt="Placa de control PCB 60377330156 para rebanadora industrial"
                     className="w-full h-full object-cover"
+                    loading="lazy"
                   />
                 </div>
                 <div className="p-4">
                   <p className="text-sm text-slate-300">Placa de control PCB 60377330156 para rebanadora industrial</p>
-                </div>
-              </article>
-              <article className="bg-slate-800 rounded-lg overflow-hidden border border-slate-700">
-                <div className="aspect-square bg-slate-700 flex items-center justify-center">
-                  <svg className="w-16 h-16 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
-                  </svg>
-                </div>
-                <div className="p-4">
-                  <p className="text-sm text-slate-300">Circuito electrónico compatible con modelos Bizerba KB/KF</p>
                 </div>
               </article>
             </div>
@@ -195,6 +187,90 @@ export default function Home() {
               </svg>
               Cotizar ahora por WhatsApp
             </a>
+          </div>
+        </section>
+
+        {/* FAQ Section - SEO Optimized */}
+        <section className="py-16 px-4 bg-slate-800/50" id="faq">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-slate-100 text-center mb-4">
+              Preguntas Frecuentes
+            </h2>
+            <p className="text-slate-400 text-center mb-12">
+              Resolvemos tus dudas sobre las tarjetas de control Bizerba
+            </p>
+            
+            <div className="space-y-4">
+              <details className="group bg-slate-800 rounded-lg border border-slate-700">
+                <summary className="flex items-center justify-between cursor-pointer p-4 font-semibold text-slate-100">
+                  ¿Cómo sé si mi rebanadora Bizerba necesita un reemplazo de tarjeta de control?
+                  <span className="transition group-open:rotate-180">
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </span>
+                </summary>
+                <div className="px-4 pb-4 text-slate-400">
+                  <p>Los síntomas más comunes incluyen: la máquina no enciende, el panel de control no responde, errores intermitentes en la pantalla, o el motor se detiene inesperadamente. Si tu rebanadora presenta alguno de estos síntomas, es probable que la tarjeta electrónica esté dañada.</p>
+                </div>
+              </details>
+
+              <details className="group bg-slate-800 rounded-lg border border-slate-700">
+                <summary className="flex items-center justify-between cursor-pointer p-4 font-semibold text-slate-100">
+                  ¿Las tarjetas son compatibles con cualquier modelo de rebanadora Bizerba?
+                  <span className="transition group-open:rotate-180">
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </span>
+                </summary>
+                <div className="px-4 pb-4 text-slate-400">
+                  <p>Nuestras tarjetas de reemplazo son compatibles específicamente con los números de parte OEM 60385075102 y 60377330156. Contáctanos con el modelo de tu máquina para confirmar compatibilidad.</p>
+                </div>
+              </details>
+
+              <details className="group bg-slate-800 rounded-lg border border-slate-700">
+                <summary className="flex items-center justify-between cursor-pointer p-4 font-semibold text-slate-100">
+                  ¿Ofrecen garantía en las tarjetas de control?
+                  <span className="transition group-open:rotate-180">
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </span>
+                </summary>
+                <div className="px-4 pb-4 text-slate-400">
+                  <p>Sí, todas nuestras tarjetas de control incluyen garantía de fabricación. Además, nuestro equipo técnico te asesora durante todo el proceso de instalación para asegurar el correcto funcionamiento.</p>
+                </div>
+              </details>
+
+              <details className="group bg-slate-800 rounded-lg border border-slate-700">
+                <summary className="flex items-center justify-between cursor-pointer p-4 font-semibold text-slate-100">
+                  ¿Cuánto tiempo dura el envío a cualquier parte de México?
+                  <span className="transition group-open:rotate-180">
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </span>
+                </summary>
+                <div className="px-4 pb-4 text-slate-400">
+                  <p>Los envíos se realizan en 2-5 días hábiles a cualquier punto de México. Utilizamos embalaje especializado para refacciones electrónicas industriales.</p>
+                </div>
+              </details>
+
+              <details className="group bg-slate-800 rounded-lg border border-slate-700">
+                <summary className="flex items-center justify-between cursor-pointer p-4 font-semibold text-slate-100">
+                  ¿Puedo instalar la tarjeta yo mismo o necesito un técnico?
+                  <span className="transition group-open:rotate-180">
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </span>
+                </summary>
+                <div className="px-4 pb-4 text-slate-400">
+                  <p>Si tienes experiencia en electrónica industrial, puedes instalar la tarjeta siguiendo nuestras instrucciones. Si prefieres, nuestro equipo técnico puede orientarte paso a paso por WhatsApp.</p>
+                </div>
+              </details>
+            </div>
           </div>
         </section>
       </main>
