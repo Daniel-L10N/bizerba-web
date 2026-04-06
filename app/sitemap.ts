@@ -3,7 +3,7 @@ import { MetadataRoute } from 'next'
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: 'https://bizerba-refacciones.vercel.app/',
+      url: 'https://bizerba.controlmodularmx.com/',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 1,

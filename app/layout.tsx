@@ -31,11 +31,11 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://bizerba-refacciones.vercel.app/',
+    canonical: 'https://bizerba.controlmodularmx.com/',
   },
   openGraph: {
     type: 'product',
-    url: 'https://bizerba-refacciones.vercel.app/',
+    url: 'https://bizerba.controlmodularmx.com/',
     title: 'Tarjeta de Control para Rebanadora Bizerba | Reemplazo 60385075102 y 60377330156',
     description: 'Tarjeta de control de reemplazo de alta calidad para rebanadoras Bizerba. Compatible con números de parte 60385075102 y 60377330156. Envío rápido, soporte técnico y fabricación garantizada.',
     siteName: 'Control Modular MX',
