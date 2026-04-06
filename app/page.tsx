@@ -30,12 +30,17 @@ export default function Home() {
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-100 mb-6 leading-tight">
               Tarjetas de Control para Rebanadoras Bizerba: Solución Definitiva
             </h1>
-            <p className="text-lg md:text-xl text-slate-300 mb-8 max-w-2xl mx-auto">
+            <p className="text-lg md:text-xl text-slate-300 mb-4 max-w-2xl mx-auto">
               Reemplazo directo y mejorado para los números de parte OEM 60385075102 y 60377330156. 
               No detengas tu producción, tenemos la refacción que necesitas.
             </p>
+            <div className="mb-8">
+              <span className="inline-block bg-blue-600/20 border border-blue-500 text-blue-400 px-6 py-2 rounded-full text-lg font-semibold">
+                💰 Precio especial: <span className="text-2xl font-bold text-blue-300">$4,999 MXN</span>
+              </span>
+            </div>
             <a
-              href="https://wa.me/525525686595?text=Hola,%20me%20interesa%20la%20tarjeta%20de%20control%20Bizerba%20(60385075102/60377330156)"
+              href="https://wa.me/525525686595?text=Hola,%20me%20interesa%20la%20tarjeta%20de%20control%20Bizerba%20(60385075102/60377330156)%20-%20Precio:%204,999%20MXN"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-green-500 hover:bg-green-600 text-slate-900 font-bold text-lg px-8 py-4 rounded-lg transition-all hover:scale-105 shadow-lg shadow-green-500/25"
@@ -115,7 +120,8 @@ export default function Home() {
                   />
                 </div>
                 <div className="p-4">
-                  <p className="text-sm text-slate-300">Tarjeta electrónica de repuesto para rebanadora Bizerba 60385075102</p>
+                  <p className="text-sm text-slate-300 mb-2">Tarjeta electrónica de repuesto para rebanadora Bizerba 60385075102</p>
+                  <p className="text-xl font-bold text-blue-400">$4,999 MXN</p>
                 </div>
               </article>
               <article className="bg-slate-800 rounded-lg overflow-hidden border border-slate-700">
@@ -128,7 +134,8 @@ export default function Home() {
                   />
                 </div>
                 <div className="p-4">
-                  <p className="text-sm text-slate-300">Placa de control PCB 60377330156 para rebanadora industrial</p>
+                  <p className="text-sm text-slate-300 mb-2">Placa de control PCB 60377330156 para rebanadora industrial</p>
+                  <p className="text-xl font-bold text-blue-400">$4,999 MXN</p>
                 </div>
               </article>
             </div>
@@ -177,7 +184,7 @@ export default function Home() {
               No dejes que una tarjeta dañada detenga tu producción. Contáctanos ahora y te ayudamos a encontrar la solución correcta.
             </p>
             <a
-              href="https://wa.me/525525686595?text=Hola,%20me%20interesa%20la%20tarjeta%20de%20control%20Bizerba%20(60385075102/60377330156)"
+              href="https://wa.me/525525686595?text=Hola,%20me%20interesa%20la%20tarjeta%20de%20control%20Bizerba%20(60385075102/60377330156)%20-%20Precio:%204,999%20MXN"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-green-500 hover:bg-green-600 text-slate-900 font-bold text-lg px-8 py-4 rounded-lg transition-all hover:scale-105 shadow-lg shadow-green-500/25"
