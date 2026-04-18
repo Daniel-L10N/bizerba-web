@@ -36,7 +36,7 @@ export default function Home() {
             </p>
             <div className="mb-8">
               <span className="inline-block bg-blue-600/20 border border-blue-500 text-blue-400 px-6 py-2 rounded-full text-lg font-semibold">
-                💰 Precio especial: <span className="text-2xl font-bold text-blue-300">$4,999 MXN</span>
+                💰 Precio especial: <span className="text-2xl font-bold text-blue-300">$6,999 MXN</span>
               </span>
             </div>
             <a
@@ -135,7 +135,7 @@ export default function Home() {
                 </div>
                 <div className="p-4">
                   <p className="text-sm text-slate-300 mb-2">Placa de control PCB 60377330156 para rebanadora industrial</p>
-                  <p className="text-xl font-bold text-blue-400">$4,999 MXN</p>
+                  <p className="text-xl font-bold text-blue-400">$6,999 MXN</p>
                 </div>
               </article>
             </div>
