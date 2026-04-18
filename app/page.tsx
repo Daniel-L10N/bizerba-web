@@ -121,7 +121,7 @@ export default function Home() {
                 </div>
                 <div className="p-4">
                   <p className="text-sm text-slate-300 mb-2">Tarjeta electrónica de repuesto para rebanadora Bizerba 60385075102</p>
-                  <p className="text-xl font-bold text-blue-400">$4,999 MXN</p>
+                  <p className="text-xl font-bold text-blue-400">$6,999 MXN</p>
                 </div>
               </article>
               <article className="bg-slate-800 rounded-lg overflow-hidden border border-slate-700">
